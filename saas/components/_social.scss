@@ -1,0 +1,57 @@
+.social {
+    display: flex;
+    margin: 0;
+    padding: 0 0 24px 0;
+    justify-content: space-evenly;
+
+&:not(:last-child){
+    margin-right: 30px;
+}
+}
+
+
+
+.social-links{
+    color:$social-link-color;
+    display: flex;
+    
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    
+    transition: all $transition-cubic;
+    
+
+&:hover{
+    background-color: $link-color;
+    border-radius:50% ;
+}
+}
+.social-link{
+    height: 44px;
+    width: 44px;
+    position: relative
+}
+
+.icon-social{
+    fill:$accent-color;
+    text-align: center;
+    padding:12px ;
+    width: 44px;
+    height: 44px;
+
+    position: absolute;
+    @extend %centered;
+    transition: all $transition-cubic;
+    
+
+
+.i&:hover{
+    fill:$secondary-text-color;
+   
+    
+}  
+}
+.visually-hidden{
+    display: none;
+  visibility: hidden;
+}

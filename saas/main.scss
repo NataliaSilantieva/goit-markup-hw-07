@@ -2,3 +2,38 @@
 @import "./utils/placeholders";
 @import "./utils/mixins";
 @import "./base/normalize";
+@import "./components/portfolio_buttons";
+@import "./components/upper_logo";
+@import "./components/container";
+@import "./components/nav";
+@import "./components/address";
+@import "./components/hero";
+@import "./components/advantages";
+@import "./components/products";
+@import "./components/team";
+@import "./components/social";
+
+
+
+
+
+body {
+    background-color:$secondary-text-color; 
+    font-family:$mainFontFamily;   
+}
+a{
+    text-decoration: none;
+}
+
+
+ul{
+    list-style-type: none;   
+}
+
+/* Шапка сайта */
+
+header{
+    width:1200px;
+    margin:0 auto;
+}
+
