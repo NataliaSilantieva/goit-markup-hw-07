@@ -25,19 +25,28 @@
     background-color: $link-color;
     border-radius:50% ;
 }
+
+    
+.social-footer &:not(:last-child){
+    margin-right: 10px;
 }
+
+.social-footer &:hover{
+    background-color: $link-color;
+}
+
 .social-link{
     height: 44px;
     width: 44px;
     position: relative
 }
+}
 
 .icon-social{
-    fill:$accent-color;
+   @extend %social-icon;
+   fill:$accent-color;
     text-align: center;
-    padding:12px ;
-    width: 44px;
-    height: 44px;
+   
 
     position: absolute;
     @extend %centered;
@@ -45,7 +54,7 @@
     
 
 
-.i&:hover{
+&:hover{
     fill:$secondary-text-color;
    
     
@@ -54,4 +63,27 @@
 .visually-hidden{
     display: none;
   visibility: hidden;
+}
+
+                              //Футер//
+.social-footer{
+    display: inline-flex;
+    margin: 20px 0 0 0;
+    padding: 0;
+   
+}
+
+.icon-footer {
+    @extend %social-icon;
+    fill: $secondary-text-color;
+    
+    
+}
+    
+.social-footer .social-links:not(:last-child){
+    margin-right: 10px;
+}
+
+.social-footer .social-links:hover{
+    background-color: $link-color;
 }
