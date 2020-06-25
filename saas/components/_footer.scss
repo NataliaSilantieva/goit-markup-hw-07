@@ -27,17 +27,16 @@ footer{
 
     display: flex;
     padding:48px 0 24px 0;
-    margin-left:  auto;
-    margin-right: auto;
+    margin:0 auto;
     align-items: baseline;
     justify-content: space-between;
-    width:$max-width;
+    width:$main-width;
 }
 
 .footer-block{
 
     padding-right: 69px;
-    margin-left: 214px;
+    
 }
 
 .logo{
@@ -70,9 +69,7 @@ footer{
     color:$secondary-text-color;
 }
 }
-.subscription{
-    margin-right:216px;
-}
+
 .button-footer{
     position: relative;
     
@@ -136,7 +133,6 @@ footer{
     text-align: center;
     background-color:$footer-background;
 
-    width: $max-width;
     margin: 0 auto ;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }

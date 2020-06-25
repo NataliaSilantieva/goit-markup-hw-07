@@ -15,8 +15,9 @@
 .modal{
     
     position: absolute;
-    @extend %centered;
-    transform:  scale(1);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(1);
     transition: transform $transition-cubic;
     width:528px;
     height: 581px;

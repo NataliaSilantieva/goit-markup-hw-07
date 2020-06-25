@@ -3,7 +3,7 @@
 
     margin: auto;
     padding: 0 0 94px 0;
-    width:1600px;
+    width:$main-width;
     
 }
 .team-names{
@@ -11,8 +11,10 @@
 line-height: 1.2;
 
 display: flex;
-padding: 0 215px ;
-margin: 0 ;
+padding: 0 15px ;
+margin: 0 auto;
+justify-content: center;
+width: $main-width;
 }
 
 .image-team{

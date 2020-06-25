@@ -2,8 +2,7 @@
     padding-top: 94px;
     display: flex;
     width: $main-width;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding: 94px 15px 0 15px;
    
     margin: 0 auto;
        
@@ -20,6 +19,7 @@
 }
 .advantages-list{
     padding: 0;
+    width:270px;
 
 
 &:not(:last-child){
@@ -37,7 +37,7 @@
     background-color: $buttons-background;
     width: 270px;
     height: 120px;
-    padding:25px;
+    padding:25px 0;
 }
 
 
