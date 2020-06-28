@@ -1,19 +1,10 @@
-.advantages-container{
-    padding-top: 94px;
-    display: flex;
-    width: $main-width;
-    padding: 94px 15px 0 15px;
-   
-    margin: 0 auto;
-       
-}
+
 
 .advantages{
-    display:flex;
-    padding:0 0 94px 0;
+    display: flex;
+    padding: 94px 0 0 0 ;
     margin: 0;
-
-    border-bottom: 1px solid $border-color;
+    justify-content: center;
 
 
 }
